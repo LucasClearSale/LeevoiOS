@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44ECB4152AC1AD7900CEA40B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ECB4142AC1AD7900CEA40B /* AppDelegate.swift */; };
+		44ECB4172AC1AD7900CEA40B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ECB4162AC1AD7900CEA40B /* SceneDelegate.swift */; };
+		44ECB4192AC1AD7900CEA40B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ECB4182AC1AD7900CEA40B /* ViewController.swift */; };
+		44ECB41C2AC1AD7900CEA40B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44ECB41A2AC1AD7900CEA40B /* Main.storyboard */; };
+		44ECB41E2AC1AD7A00CEA40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44ECB41D2AC1AD7A00CEA40B /* Assets.xcassets */; };
+		44ECB4212AC1AD7A00CEA40B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44ECB41F2AC1AD7A00CEA40B /* LaunchScreen.storyboard */; };
+		44ECB42C2AC1AD7A00CEA40B /* LeevoiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ECB42B2AC1AD7A00CEA40B /* LeevoiOSTests.swift */; };
+		44ECB4362AC1AD7A00CEA40B /* LeevoiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ECB4352AC1AD7A00CEA40B /* LeevoiOSUITests.swift */; };
+		44ECB4382AC1AD7A00CEA40B /* LeevoiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ECB4372AC1AD7A00CEA40B /* LeevoiOSUITestsLaunchTests.swift */; };
+		44ECB4452AC1B95A00CEA40B /* DeviceOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ECB4442AC1B95A00CEA40B /* DeviceOrientation.swift */; };
+		8F761ED7AC117AEA2AA5190B /* Pods_LeevoiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B63DF41D2EDFD02888B601 /* Pods_LeevoiOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44ECB4282AC1AD7A00CEA40B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44ECB4092AC1AD7900CEA40B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44ECB4102AC1AD7900CEA40B;
+			remoteInfo = LeevoiOS;
+		};
+		44ECB4322AC1AD7A00CEA40B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44ECB4092AC1AD7900CEA40B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44ECB4102AC1AD7900CEA40B;
+			remoteInfo = LeevoiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		408509D2B1752EBA38C0620F /* Pods-LeevoiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeevoiOS.debug.xcconfig"; path = "Target Support Files/Pods-LeevoiOS/Pods-LeevoiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		44ECB4112AC1AD7900CEA40B /* LeevoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeevoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ECB4142AC1AD7900CEA40B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44ECB4162AC1AD7900CEA40B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44ECB4182AC1AD7900CEA40B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44ECB41B2AC1AD7900CEA40B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44ECB41D2AC1AD7A00CEA40B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44ECB4202AC1AD7A00CEA40B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44ECB4222AC1AD7A00CEA40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44ECB4272AC1AD7A00CEA40B /* LeevoiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeevoiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ECB42B2AC1AD7A00CEA40B /* LeevoiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeevoiOSTests.swift; sourceTree = "<group>"; };
+		44ECB4312AC1AD7A00CEA40B /* LeevoiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeevoiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ECB4352AC1AD7A00CEA40B /* LeevoiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeevoiOSUITests.swift; sourceTree = "<group>"; };
+		44ECB4372AC1AD7A00CEA40B /* LeevoiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeevoiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44ECB4442AC1B95A00CEA40B /* DeviceOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceOrientation.swift; sourceTree = "<group>"; };
+		70B63DF41D2EDFD02888B601 /* Pods_LeevoiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeevoiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FC733A3CCA5C1D9B27B314 /* Pods-LeevoiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeevoiOS.release.xcconfig"; path = "Target Support Files/Pods-LeevoiOS/Pods-LeevoiOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44ECB40E2AC1AD7900CEA40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F761ED7AC117AEA2AA5190B /* Pods_LeevoiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ECB4242AC1AD7A00CEA40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ECB42E2AC1AD7A00CEA40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2078971165754AEF813A9E6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70B63DF41D2EDFD02888B601 /* Pods_LeevoiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44ECB4082AC1AD7900CEA40B = {
+			isa = PBXGroup;
+			children = (
+				44ECB4132AC1AD7900CEA40B /* LeevoiOS */,
+				44ECB42A2AC1AD7A00CEA40B /* LeevoiOSTests */,
+				44ECB4342AC1AD7A00CEA40B /* LeevoiOSUITests */,
+				44ECB4122AC1AD7900CEA40B /* Products */,
+				D664B8DB9A48257E2158DFFB /* Pods */,
+				2078971165754AEF813A9E6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44ECB4122AC1AD7900CEA40B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44ECB4112AC1AD7900CEA40B /* LeevoiOS.app */,
+				44ECB4272AC1AD7A00CEA40B /* LeevoiOSTests.xctest */,
+				44ECB4312AC1AD7A00CEA40B /* LeevoiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44ECB4132AC1AD7900CEA40B /* LeevoiOS */ = {
+			isa = PBXGroup;
+			children = (
+				44ECB4142AC1AD7900CEA40B /* AppDelegate.swift */,
+				44ECB4162AC1AD7900CEA40B /* SceneDelegate.swift */,
+				44ECB4182AC1AD7900CEA40B /* ViewController.swift */,
+				44ECB41A2AC1AD7900CEA40B /* Main.storyboard */,
+				44ECB41D2AC1AD7A00CEA40B /* Assets.xcassets */,
+				44ECB41F2AC1AD7A00CEA40B /* LaunchScreen.storyboard */,
+				44ECB4222AC1AD7A00CEA40B /* Info.plist */,
+				44ECB4442AC1B95A00CEA40B /* DeviceOrientation.swift */,
+			);
+			path = LeevoiOS;
+			sourceTree = "<group>";
+		};
+		44ECB42A2AC1AD7A00CEA40B /* LeevoiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				44ECB42B2AC1AD7A00CEA40B /* LeevoiOSTests.swift */,
+			);
+			path = LeevoiOSTests;
+			sourceTree = "<group>";
+		};
+		44ECB4342AC1AD7A00CEA40B /* LeevoiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44ECB4352AC1AD7A00CEA40B /* LeevoiOSUITests.swift */,
+				44ECB4372AC1AD7A00CEA40B /* LeevoiOSUITestsLaunchTests.swift */,
+			);
+			path = LeevoiOSUITests;
+			sourceTree = "<group>";
+		};
+		D664B8DB9A48257E2158DFFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				408509D2B1752EBA38C0620F /* Pods-LeevoiOS.debug.xcconfig */,
+				A1FC733A3CCA5C1D9B27B314 /* Pods-LeevoiOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44ECB4102AC1AD7900CEA40B /* LeevoiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44ECB43B2AC1AD7A00CEA40B /* Build configuration list for PBXNativeTarget "LeevoiOS" */;
+			buildPhases = (
+				3C9B0DD7C658DEBB92BAC241 /* [CP] Check Pods Manifest.lock */,
+				44ECB40D2AC1AD7900CEA40B /* Sources */,
+				44ECB40E2AC1AD7900CEA40B /* Frameworks */,
+				44ECB40F2AC1AD7900CEA40B /* Resources */,
+				108DD883CCE45317AF06442F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeevoiOS;
+			productName = LeevoiOS;
+			productReference = 44ECB4112AC1AD7900CEA40B /* LeevoiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44ECB4262AC1AD7A00CEA40B /* LeevoiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44ECB43E2AC1AD7A00CEA40B /* Build configuration list for PBXNativeTarget "LeevoiOSTests" */;
+			buildPhases = (
+				44ECB4232AC1AD7A00CEA40B /* Sources */,
+				44ECB4242AC1AD7A00CEA40B /* Frameworks */,
+				44ECB4252AC1AD7A00CEA40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44ECB4292AC1AD7A00CEA40B /* PBXTargetDependency */,
+			);
+			name = LeevoiOSTests;
+			productName = LeevoiOSTests;
+			productReference = 44ECB4272AC1AD7A00CEA40B /* LeevoiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44ECB4302AC1AD7A00CEA40B /* LeevoiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44ECB4412AC1AD7A00CEA40B /* Build configuration list for PBXNativeTarget "LeevoiOSUITests" */;
+			buildPhases = (
+				44ECB42D2AC1AD7A00CEA40B /* Sources */,
+				44ECB42E2AC1AD7A00CEA40B /* Frameworks */,
+				44ECB42F2AC1AD7A00CEA40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44ECB4332AC1AD7A00CEA40B /* PBXTargetDependency */,
+			);
+			name = LeevoiOSUITests;
+			productName = LeevoiOSUITests;
+			productReference = 44ECB4312AC1AD7A00CEA40B /* LeevoiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44ECB4092AC1AD7900CEA40B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					44ECB4102AC1AD7900CEA40B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					44ECB4262AC1AD7A00CEA40B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 44ECB4102AC1AD7900CEA40B;
+					};
+					44ECB4302AC1AD7A00CEA40B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 44ECB4102AC1AD7900CEA40B;
+					};
+				};
+			};
+			buildConfigurationList = 44ECB40C2AC1AD7900CEA40B /* Build configuration list for PBXProject "LeevoiOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44ECB4082AC1AD7900CEA40B;
+			productRefGroup = 44ECB4122AC1AD7900CEA40B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44ECB4102AC1AD7900CEA40B /* LeevoiOS */,
+				44ECB4262AC1AD7A00CEA40B /* LeevoiOSTests */,
+				44ECB4302AC1AD7A00CEA40B /* LeevoiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44ECB40F2AC1AD7900CEA40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ECB4212AC1AD7A00CEA40B /* LaunchScreen.storyboard in Resources */,
+				44ECB41E2AC1AD7A00CEA40B /* Assets.xcassets in Resources */,
+				44ECB41C2AC1AD7900CEA40B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ECB4252AC1AD7A00CEA40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ECB42F2AC1AD7A00CEA40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		108DD883CCE45317AF06442F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeevoiOS/Pods-LeevoiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeevoiOS/Pods-LeevoiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeevoiOS/Pods-LeevoiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C9B0DD7C658DEBB92BAC241 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeevoiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44ECB40D2AC1AD7900CEA40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ECB4192AC1AD7900CEA40B /* ViewController.swift in Sources */,
+				44ECB4152AC1AD7900CEA40B /* AppDelegate.swift in Sources */,
+				44ECB4452AC1B95A00CEA40B /* DeviceOrientation.swift in Sources */,
+				44ECB4172AC1AD7900CEA40B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ECB4232AC1AD7A00CEA40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ECB42C2AC1AD7A00CEA40B /* LeevoiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ECB42D2AC1AD7A00CEA40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ECB4382AC1AD7A00CEA40B /* LeevoiOSUITestsLaunchTests.swift in Sources */,
+				44ECB4362AC1AD7A00CEA40B /* LeevoiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44ECB4292AC1AD7A00CEA40B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44ECB4102AC1AD7900CEA40B /* LeevoiOS */;
+			targetProxy = 44ECB4282AC1AD7A00CEA40B /* PBXContainerItemProxy */;
+		};
+		44ECB4332AC1AD7A00CEA40B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44ECB4102AC1AD7900CEA40B /* LeevoiOS */;
+			targetProxy = 44ECB4322AC1AD7A00CEA40B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44ECB41A2AC1AD7900CEA40B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44ECB41B2AC1AD7900CEA40B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44ECB41F2AC1AD7A00CEA40B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44ECB4202AC1AD7A00CEA40B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44ECB4392AC1AD7A00CEA40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44ECB43A2AC1AD7A00CEA40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44ECB43C2AC1AD7A00CEA40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 408509D2B1752EBA38C0620F /* Pods-LeevoiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQJQDZWXEL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeevoiOS/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.lucascarvalho.LeevoiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44ECB43D2AC1AD7A00CEA40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1FC733A3CCA5C1D9B27B314 /* Pods-LeevoiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQJQDZWXEL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeevoiOS/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.lucascarvalho.LeevoiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44ECB43F2AC1AD7A00CEA40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQJQDZWXEL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.lucascarvalho.LeevoiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeevoiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeevoiOS";
+			};
+			name = Debug;
+		};
+		44ECB4402AC1AD7A00CEA40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQJQDZWXEL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.lucascarvalho.LeevoiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeevoiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeevoiOS";
+			};
+			name = Release;
+		};
+		44ECB4422AC1AD7A00CEA40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQJQDZWXEL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.lucascarvalho.LeevoiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeevoiOS;
+			};
+			name = Debug;
+		};
+		44ECB4432AC1AD7A00CEA40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQJQDZWXEL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.lucascarvalho.LeevoiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeevoiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44ECB40C2AC1AD7900CEA40B /* Build configuration list for PBXProject "LeevoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ECB4392AC1AD7A00CEA40B /* Debug */,
+				44ECB43A2AC1AD7A00CEA40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44ECB43B2AC1AD7A00CEA40B /* Build configuration list for PBXNativeTarget "LeevoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ECB43C2AC1AD7A00CEA40B /* Debug */,
+				44ECB43D2AC1AD7A00CEA40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44ECB43E2AC1AD7A00CEA40B /* Build configuration list for PBXNativeTarget "LeevoiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ECB43F2AC1AD7A00CEA40B /* Debug */,
+				44ECB4402AC1AD7A00CEA40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44ECB4412AC1AD7A00CEA40B /* Build configuration list for PBXNativeTarget "LeevoiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ECB4422AC1AD7A00CEA40B /* Debug */,
+				44ECB4432AC1AD7A00CEA40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44ECB4092AC1AD7900CEA40B /* Project object */;
+}
